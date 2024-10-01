@@ -50,7 +50,9 @@ After scraping, the extracted data is stored in a MySQL database. This is achiev
 
 We implement the Singleton Pattern to ensure that only one instance of the database connection is created and shared across the application. This prevents multiple unnecessary connections and optimizes resource usage.
 
-```python
-class MySQLConnectionSingleton:
-    # Singleton pattern implementation
+
+## Conclusion
+
+This project provides a comprehensive solution for web scraping using Selenium, efficiently storing the scraped data into MySQL, and applying modern software design patterns like Singleton and Factory for better code management. By following the structure and patterns laid out in this project, you can create robust web scraping applications that handle dynamic content and manage database connections effectively. Feel free to use this template to scrape data from other websites, adapting the design as necessary for your specific use case.
+
 
